@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8)
 project(fatcat)
 
 if(MINGW)
-    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static-libgcc -static-libstdc++ -s")
+    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static-libgcc -static-libstdc++ -Wl,--gc-sections,-Bstatic,--whole-archive -lwinpthread -Wl,--no-whole-archive -s")
 endif()
 
 set(SOURCES
