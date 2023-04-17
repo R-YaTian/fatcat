@@ -23,7 +23,7 @@ using namespace std;
 
 void usage()
 {
-    cout << "fatcat v1.1.0, Gregwar <g.passault@gmail.com>" << endl;
+    cout << "fatcat v1.1.1, Gregwar <g.passault@gmail.com>" << endl;
     cout << endl;
     cout << "Usage: fatcat disk.img [options]" << endl;
     cout << "  -i: display information about disk" << endl;
