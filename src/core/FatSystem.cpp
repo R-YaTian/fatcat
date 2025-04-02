@@ -1,8 +1,8 @@
-#include <time.h>
 #include <iostream>
 #include <stdio.h>
 #include <set>
 #ifndef _WIN32
+#include <time.h>
 #include <unistd.h>
 #include <string>
 #include <string.h>

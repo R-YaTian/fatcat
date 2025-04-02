@@ -2,7 +2,9 @@
 #include <sstream>
 #include <iostream>
 #include <string>
+#ifndef _WIN32
 #include <time.h>
+#endif
 
 #include <FatUtils.h>
 #include "FatDate.h"
